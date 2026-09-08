@@ -1,21 +1,12 @@
-## AppSeller — Software Marketplace
+# React + Vite
 
-AppSeller is a **React-based e-commerce platform for digital software products**, designed to provide a marketplace where developers and businesses can discover, purchase, and sell software products online.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The platform focuses on digital products such as plugins, source-code packages, templates, scripts, and complete software projects.
+Currently, two official plugins are available:
 
-### Key Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-* 💻 Browse and discover software products
-* 🧩 Plugin marketplace
-* 📦 Full-project and source-code listings
-* 🔎 Product search and categorization
-* 🛒 Shopping cart and checkout experience
-* 👤 User accounts and authentication
-* 🏷️ Product pricing and details
-* 📱 Responsive React interface
-* 🛍️ Digital-product marketplace experience
+## Expanding the ESLint configuration
 
-### Purpose
-
-AppSeller provides a centralized marketplace for **developers, businesses, and software creators to distribute and sell digital software products online**.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
